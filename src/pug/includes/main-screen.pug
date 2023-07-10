@@ -1,0 +1,29 @@
+section.main-screen
+	.main-screen__img.main-screen__img--1.img-wrap.mobile--hide.left
+		div
+			picture
+				source(srcset='assets/images/png/main-screen-img1.webp' type='image/webp')
+				img(src='assets/images/png/main-screen-img1.png' alt='')
+	.main-screen__img.main-screen__img--2.img-wrap.right
+		div
+			picture
+				source(srcset='assets/images/png/main-screen-img2-mob.png' media='(max-width: 1024px)')
+				source(srcset='assets/images/png/main-screen-img2.webp' type='image/webp')
+				img(src='assets/images/png/main-screen-img2.png' alt='')
+
+	picture
+		source(srcset='assets/images/png/main-screen-bg.webp' type='image/webp')
+		img.main-screen__bg(src='assets/images/png/main-screen-bg.png' alt='')
+	.center-wrap
+		.main-screen__box
+			.main-screen__subtitle
+				.subtitle.scale
+					p Stop spending time on mediocre online stuff!
+			.main-screen__simple-title.simple-title Explore our intriguing 3D game
+			.main-screen__info.text-anim 
+				p instead and experience unparalleled pleasure like you've never seen before.
+			.main-screen__btns 
+				a(href="/adverster/partner.html").btn.btn--empty.left
+					.btn__title No,thanks
+				a(href="/adverster/warning.html").btn.right
+					.btn__title Continue

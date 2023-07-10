@@ -1,0 +1,23 @@
+section.warning
+	picture
+		source(srcset='assets/images/png/main-screen-bg.webp' type='image/webp')
+		img.main-screen__bg(src='assets/images/png/main-screen-bg.png' alt='')
+	.warning__img.warning__img--1.img-wrap.mobile--hide.right
+		div
+			picture
+				source(srcset='assets/images/png/warning-img1.webp' type='image/webp')
+				img(src='assets/images/png/warning-img1.png' alt='')
+	.warning__img.warning__img--2.img-wrap.left
+		div
+			picture
+				source(srcset='assets/images/png/warning-img2-mob.png' media='(max-width: 1024px)')
+				source(srcset='assets/images/png/warning-img2.webp' type='image/webp')
+				img(src='assets/images/png/warning-img2.png' alt='')
+	.center-wrap
+		.warning__info
+			h2.warning__simple-title.simple-title Warning
+			.warning__text.text-anim 
+				p You must be at least 18 years old and comfortable with mature topics to play the game.
+			.warning__btn 
+				a(href="/adverster").btn.scale
+					.btn__title Ok, Continue
